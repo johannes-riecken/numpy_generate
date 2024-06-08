@@ -1,0 +1,33 @@
+add	x1:array_like	x2:array_like
+allclose	a:array_like	b:array_like
+arange	stop:int
+argmax	a:array_like
+argmin	a:array_like
+argsort	a:array_like
+array_equal	a1:array_like	a2:array_like
+diag	v:array_like
+divide	x1:array_like	x2:array_like
+empty	shape:int_tuple
+empty_like	prototype:array_like
+eye	N:int
+flip	m:array_like
+full	shape:int_tuple	fill_value:array_like
+intersect1d	ar1:array_like	ar2:array_like
+linalg.det	a:array_like
+linspace	start:array_like	stop:array_like
+matmul	x1:array_like	x2:array_like
+mean	a:array_like
+meshgrid	x1:array_like	x2:array_like
+multiply	x1:array_like	x2:array_like
+ndenumerate	arr:array_like
+negative	x:array_like
+nonzero	a:array_like
+ones	shape:int_tuple
+pad	array:array_like	pad_width:array_like
+put	a:array_like	ind:array_like	v:array_like
+sum	a:array_like
+tile	A:array_like	reps:array_like
+transpose	a:array_like
+unravel_index	indices:array_like	shape:int_tuple
+zeros	shape:int_tuple
+zeros_like	a:array_like

@@ -1,0 +1,37 @@
+add	x1	x2
+allclose	a	b
+arange	start	stop	step
+argmax	a
+argmin	a
+argsort	a
+array_equal	a1	a2
+diag	v
+divide	x1	x2
+dtype	dtype
+empty	shape
+empty_like	prototype
+eye	N
+flip	m
+fromfunction	function	shape	*
+fromiter	iter	dtype
+full	shape	fill_value
+info
+intersect1d	ar1	ar2
+linalg.det	a
+linspace	start	stop
+matmul	x1	x2
+mean	a
+meshgrid	x1	x2
+multiply	x1	x2
+ndenumerate	arr
+negative	x
+nonzero	a
+ones	shape
+pad	array	pad_width
+put	a	ind	v
+sum	a
+tile	A	reps
+transpose	a
+unravel_index	indices	shape
+zeros	shape
+zeros_like	a
