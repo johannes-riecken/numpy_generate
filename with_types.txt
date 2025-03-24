@@ -24,10 +24,8 @@ negative	x:array_like
 nonzero	a:array_like
 ones	shape:int_tuple
 pad	array:array_like	pad_width:array_like
-put	a:array_like	ind:array_like	v:array_like
 sum	a:array_like
-tile	A:array_like	reps:array_like
+tile	A:array_like	reps:int_tuple
 transpose	a:array_like
-unravel_index	indices:array_like	shape:int_tuple
 zeros	shape:int_tuple
 zeros_like	a:array_like
